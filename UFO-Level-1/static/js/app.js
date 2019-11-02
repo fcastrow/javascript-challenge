@@ -8,7 +8,7 @@ d3.select("tbody")
   .enter()
   .append("tr")
   .html(function(d){
-  return `<td>${d.datetime}</td><td>${d.city}</td><td>${d.state}</td><td>${d.country}</td><td>${d.shape}</td><td>${d.durationMinutes}</td><td>${d.comemnts}</td>`;
+  return `<td>${d.datetime}</td><td>${d.city}</td><td>${d.state}</td><td>${d.country}</td><td>${d.shape}</td><td>${d.durationMinutes}</td><td>${d.comments}</td>`;
 });
 
 
